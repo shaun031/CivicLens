@@ -1,0 +1,25 @@
+{
+  "name": "civiclens-infrastructure",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit",
+    "test": "vitest run",
+    "synth": "cdk synth --lookups=false --quiet",
+    "check:local": "tsx scripts/check-local.ts",
+    "check:templates": "tsx scripts/check-templates.ts",
+    "check:deployment-readiness": "tsx scripts/check-deployment-readiness.ts"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.273.0",
+    "constructs": "^10.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "aws-cdk": "^2.1145.0",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3",
+    "vitest": "^5.0.5"
+  }
+}

@@ -1,0 +1,4 @@
+# Installed by scripts/setup.ps1. Versions are bounded in pyproject.toml;
+# the generated environment can be inspected with: python -m pip freeze
+-e .[dev]
+

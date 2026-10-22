@@ -1,0 +1,7 @@
+{
+  "app": "npx tsx bin/civiclens.ts",
+  "context": {
+    "stage": "demo",
+    "@aws-cdk/core:stackRelativeExports": true
+  }
+}
